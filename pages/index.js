@@ -1,65 +1,55 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React, { useEffect, useState } from 'react';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects';
+import { animateScroll as scroll } from 'react-scroll';
+import ScrollToTop from './components/ScrollToTop';
 
-export default function Home() {
+const Index = () => {
+  const [showScroll, setShowScroll] = useState(false);
+  const [vh, setVh] = useState(0);
+
+  useEffect(() => {
+    setVh(
+      Math.max(
+        document.documentElement.clientHeight || 0,
+        window.innerHeight || 0
+      )
+    );
+  }, []);
+
+  useEffect(() => {
+    const checkScrollTop = () => {
+      if (!showScroll && window.pageYOffset > vh) {
+        setShowScroll(true);
+      } else if (showScroll && window.pageYOffset <= vh) {
+        setShowScroll(false);
+      }
+    };
+
+    window.addEventListener('scroll', checkScrollTop);
+
+    return () => {
+      window.removeEventListener('scroll', checkScrollTop);
+    };
+  }, [showScroll, setShowScroll]);
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+    <div className="bg-carrara">
+      <Navbar />
+      <Hero />
+      <main className="w-full max-w-4xl mx-auto">
+        <AboutMe />
+        <Projects />
+        <Contact />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Footer />
+      <ScrollToTop showScroll={showScroll} />
     </div>
-  )
-}
+  );
+};
+
+export default Index;

@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.2",
+    "@tailwindcss/ui": "^0.6.2",
     "next": "9.5.5",
     "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "react-dom": "16.14.0",
+    "react-scroll": "^1.8.1"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.2"
   }
 }
