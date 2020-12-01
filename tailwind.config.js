@@ -7,16 +7,29 @@ module.exports = {
     defaultLineHeights: true,
     standardFontWeights: true,
   },
-  purge: [],
+  purge: ['./src/**/*.html', './src/**/*.js'],
   theme: {
+    filter: {
+      none: 'none',
+      grayscale: 'grayscale(1)',
+      invert: 'invert(1)',
+      sepia: 'sepia(1)',
+      'dark-1/5': 'brightness(75%)',
+      'dark-1/2': 'brightness(50%)',
+      'dark-3/4': 'brightness(25%)',
+      'dark-2/3': 'brightness(33%)',
+    },
+    backdropFilter: {
+      none: 'none',
+      blur: 'blur(3px) brightness(75%)',
+    },
     extend: {
       fontFamily: {
-        sans: ['D-DIN', ...defaultTheme.fontFamily.sans],
-        ddincon: ['D-DIN-Con', ...defaultTheme.fontFamily.sans],
-        ddinexp: ['D-DIN-Exp', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
         logo: ['"Major Mono Display"', ...defaultTheme.fontFamily.sans],
       },
       spacing: {
+        18: '4.5rem',
         // 72: '18rem',
         // 80: '20rem',
         // 88: '22rem',
@@ -29,7 +42,6 @@ module.exports = {
         144: '36rem',
         240: '60rem',
       },
-      backgroundPosition: { custom: '50% 65%' },
       colors: {
         valencia: {
           50: '#ffeae2',
@@ -83,29 +95,64 @@ module.exports = {
         },
       },
       fontSize: {
+        '1.5xl': '1.375rem',
         '7xl': '5rem',
       },
-      minHeight: {
-        '80s': '80vh',
+      borderWidth: {
+        1.5: '1.5px',
       },
       rotate: {
         '-66': '-66deg',
         66: '66deg',
+        '-135': '-135deg',
       },
-      backgroundImage: (theme) => ({
-        'hero-pattern': "url('/background.jpg')",
-      }),
     },
   },
   variants: {
-    rotate: [
+    backgroundColor: [
       'responsive',
+      'group-hover',
+      'group-focus',
+      'hover',
+      'focus',
+      'focus-visible',
+      'active',
+    ],
+    textColor: [
+      'responsive',
+      'group-hover',
+      'group-focus',
+      'hover',
+      'focus',
+      'focus-visible',
+      'active',
+    ],
+    borderRadius: ['first', 'last', 'responsive'],
+    padding: ['first', 'last', 'responsive'],
+    translate: [
+      'responsive',
+      'group-hover',
+      'group-focus',
       'hover',
       'focus',
       'active',
+    ],
+    rotate: [
+      'responsive',
       'group-hover',
       'group-focus',
+      'hover',
+      'focus',
+      'active',
+    ],
+    opacity: [
+      'responsive',
+      'group-hover',
+      'group-focus',
+      'hover',
+      'focus',
+      'active',
     ],
   },
-  plugins: [require('@tailwindcss/ui')],
+  plugins: [require('@tailwindcss/ui'), require('tailwindcss-filters')],
 };

@@ -1,30 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./public/banner-thin.png" alt="Banner">
 
-## Getting Started
+# Michael W. Lu
 
-First, run the development server:
+Visit at: [michaelwenlu.com](https://michaelwenlu.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Description
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This is my personal website serving as my programming portfolio.
 
-## Learn More
+Much structural and design inspiration came from [Brittany Chiang's impeccable personal site](https://github.com/bchiang7/v4). I put together a warm theme which was heavily influenced by the unique portrayal of futurism and technology in the film _Her_.
 
-To learn more about Next.js, take a look at the following resources:
+<img src="./readme/screenshot.png" alt="Banner">
+&nbsp;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In showcasing my coding projects, I took a great piece of advice from [Aaron Jack's YouTube channel](https://www.youtube.com/channel/UCRLEADhMcb8WUdnQ5_Alk7g) and used screen recordings to easily display my applications' capabilities in demo videos.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="./readme/screenshot2.png" alt="Banner">
 
-## Deploy on Vercel
+## 🤖 Versions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+v1.0 Deploy site
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🚀 Technologies
+
+- [Next.js](https://nextjs.org/)
+- [Formspree](https://formspree.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/docs)
+
+## 🗃️ License
+
+MIT © 2020 Michael W. Lu
