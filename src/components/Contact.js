@@ -77,7 +77,7 @@ const Contact = () => {
                       can.
                     </p>
                   )}
-                  <div className="mt-10">
+                  <div className="flex items-center mt-10">
                     <div className="inline-block mr-1.5 transition duration-75 text-bastille-800">
                       Or email me directly —
                     </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                       <div className="inline underline truncate transition duration-75 text-valencia-500 group-hover:text-valencia-300 group-focus:text-valencia-300">
                         hello@michaelwenlu.com
                       </div>
-                      <div className="inline-block ml-1 text-sm">✏️</div>
+                      <div className="inline-block ml-0.5 text-sm">✏️</div>
                     </a>
                   </div>
                 </div>
