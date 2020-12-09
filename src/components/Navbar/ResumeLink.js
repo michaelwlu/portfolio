@@ -3,7 +3,7 @@ import React from 'react';
 const ResumeLink = ({ text }) => {
   return (
     <a
-      href="/resume.pdf"
+      href="/MichaelWLu_Resume.pdf"
       target="_blank"
       className="block transition duration-150 ease-in-out transform cursor-pointer group focus:outline-none"
     >
