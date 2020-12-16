@@ -77,7 +77,7 @@ const Contact = () => {
                       can.
                     </p>
                   )}
-                  <div className="flex items-center mt-10">
+                  <div className="items-center mt-10">
                     <div className="inline-block mr-1.5 transition duration-75 text-bastille-800">
                       Or email me directly —
                     </div>

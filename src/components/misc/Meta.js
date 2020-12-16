@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React from 'react';
 
 const Meta = () => {
@@ -12,7 +11,7 @@ const Meta = () => {
   };
 
   return (
-    <Head>
+    <>
       <title>{defaultInfo.title}</title>
       <meta name="description" content={defaultInfo.desc} />
       <meta property="og:type" content="website" />
@@ -42,7 +41,7 @@ const Meta = () => {
         name="viewport"
         content="initial-scale=1.0, viewport-fit=cover, user-scalable=no"
       />
-    </Head>
+    </>
   );
 };
 

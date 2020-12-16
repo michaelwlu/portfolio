@@ -6,7 +6,7 @@ const DefinitelyNotReddit = () => {
     projectName: 'Definitely Not Reddit',
     projectDesc:
       'Full-stack Reddit clone web application with user accounts, posts, comments, and upvotes / downvotes',
-    projectUrl: 'https://definitelynotreddit.michaelwenlu.com',
+    projectUrl: 'https://definitelynotreddit.com',
     githubUrl: 'https://github.com/michaelwlu/definitely-not-reddit',
     techStack: [
       'Next.js',

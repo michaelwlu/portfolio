@@ -12,9 +12,15 @@ const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
   return (
     <>
-      <div className="fixed top-0 left-0 z-30 w-full pl-6 pr-5 shadow-md h-18 md:h-24 md:relative bg-carrara">
-        <div className="flex items-center justify-center h-full mx-auto max-w-7xl">
-          <div className="flex items-center justify-between w-full pt-1 my-auto md:items-end ">
+      <div // background container
+        className="fixed top-0 left-0 z-30 w-full pl-6 pr-5 shadow-md h-18 md:h-24 md:relative bg-carrara"
+      >
+        <div // width container
+          className="flex items-center justify-center h-full mx-auto max-w-7xl"
+        >
+          <div // height container
+            className="flex items-center justify-between w-full pt-1 my-auto md:items-end "
+          >
             <Link href="/">
               <a className="p-1 transition duration-75 cursor-pointer group focus:outline-none">
                 <Logo />
@@ -53,8 +59,7 @@ const Navbar = () => {
                   dropdown ? 'bg-gray-300 bg-opacity-25 ' : 'shadow-none'
                 }`}
               >
-                {/* Open menu icon */}
-                <svg
+                <svg // open menu icon
                   className={`w-10 h-10 ${dropdown ? 'hidden' : 'block'}`}
                   stroke="currentColor"
                   fill="none"
@@ -67,8 +72,7 @@ const Navbar = () => {
                     d="M4 6h16M4 12h16m-7 6h7"
                   />
                 </svg>
-                {/* Close menu icon */}
-                <svg
+                <svg // close menu icon
                   className={`w-10 h-10 ${dropdown ? 'block' : 'hidden'}`}
                   stroke="currentColor"
                   fill="none"
@@ -86,9 +90,13 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {dropdown ? (
-        <MobileNav handleClick={() => setDropdown((dropdown) => !dropdown)} />
-      ) : null}
+
+      <div className="block md:hidden">
+        <MobileNav
+          isVisible={dropdown}
+          handleClick={() => setDropdown((dropdown) => !dropdown)}
+        />
+      </div>
     </>
   );
 };
