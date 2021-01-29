@@ -20,8 +20,8 @@ const AboutMe = () => {
             and creativity that empowers so much of our modern world.
           </p>
           <p>
-            I'm a proud Recurse Center and NYU Stern alumnus. To unwind, I clown
-            around with{' '}
+            I'm a proud alumnus of NYU Stern as well as the Recurse Center. To
+            unwind, I clown around with{' '}
             <a
               href="https://www.instagram.com/uhoh_its_iro/"
               className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-none focus-visible:text-kashmir-300"
@@ -29,8 +29,8 @@ const AboutMe = () => {
             >
               my husky Iro 🐺
             </a>{' '}
-            and watch YouTube videos on everything ranging from culinary
-            experiments to fitness science to the latest consumer tech.
+            , learn new culinary skills, and try to pick up heavier things than
+            I did the week before.
           </p>
         </div>
 
