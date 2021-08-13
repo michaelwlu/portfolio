@@ -104,6 +104,7 @@ const ProjectDisplay = ({ alignment, projectDetails }) => {
 											height={720}
 											layout="intrinsic"
 											className="rounded-md"
+											priority="true"
 										/>
 										<Image
 											src={`/images/${directory}/screenshot.png`}
@@ -123,7 +124,7 @@ const ProjectDisplay = ({ alignment, projectDetails }) => {
 						</div>
 						<div className="flex flex-col items-center justify-center w-full mt-4 md:mt-6">
 							<div className="mb-1.5 text-xs italic text-center lg:hidden text-bastille-500">
-								Tap to view demos
+								Tap to play demos
 							</div>
 							<div className="relative inline-flex justify-center max-w-full -space-x-px text-xs rounded-md shadow-md lg:text-sm">
 								{actions.map((name) => {
@@ -145,7 +146,7 @@ const ProjectDisplay = ({ alignment, projectDetails }) => {
 							<div
 								className={`text-bastille-500 hidden lg:block text-xs transition-all duration-200 ease-in-out delay-75 transform translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 mt-3 italic w-full text-center`}
 							>
-								Click to view demos
+								Click to play demos
 							</div>
 						</div>
 					</div>

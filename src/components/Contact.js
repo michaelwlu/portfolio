@@ -6,14 +6,15 @@ const Contact = () => {
 	const [state, handleSubmit] = useForm("contactForm");
 
 	return (
-		<div id="contact" className="pt-24 pb-16 lg:pt-40 lg:pb-32">
+		<div id="contact" className="pt-24 pb-16 lg:pt-24 lg:pb-32">
 			<SectionHeader number="3" title="how to get in touch" emoji="💬" />
 			<div className="md:ml-20 md:mr-2">
-				<p className="max-w-4xl mt-4 text-base leading-relaxed md:mt-12 lg:text-xl text-bastille-800">
-					Yes, I am currently exploring new opportunities! Regarding this or
-					anything else, please feel free to say hello.
+				<p className="max-w-4xl mt-6 text-base leading-relaxed md:mt-12 lg:text-lg text-bastille-800">
+					Please feel free to say hello, enlighten me on a cool React library,
+					share a must-watch TV show, or tell me about an interesting
+					opportunity!
 				</p>
-				<div className="flex mt-8">
+				<div className="flex mt-8 md:mt-12">
 					<div className="w-full max-w-3xl">
 						<form
 							onSubmit={handleSubmit}

@@ -15,14 +15,19 @@ const Hero = () => {
 				<Image
 					src={background}
 					layout="fill"
-					className="fixed top-0 left-0 object-bottom"
+					objectFit="cover"
+					objectPosition="bottom"
+					className="fixed top-0 left-0"
+					priority="true"
 				/>
 			</div>
 			<div className="h-screen md:hidden" style={{ clipPath: "inset(0)" }}>
 				<Image
 					src={backgroundMobile}
 					layout="fill"
+					objectFit="cover"
 					className="filter-dark-2/3"
+					priority="true"
 				/>
 			</div>
 
