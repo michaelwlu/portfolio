@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Projects from "../components/Projects";
+import GoogleAnalytics from "src/lib/GoogleAnalytics";
+import Meta from "src/components/misc/Meta";
 
 const Index = () => {
 	const [showScroll, setShowScroll] = useState(false);
@@ -38,6 +40,8 @@ const Index = () => {
 
 	return (
 		<div className="relative bg-carrara">
+			<GoogleAnalytics />
+			<Meta />
 			<Navbar />
 			<Hero />
 			<div className="pl-6 pr-6 md:pl-8 md:pr-8">
