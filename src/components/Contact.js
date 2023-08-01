@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import SectionHeader from "./SectionHeader";
+import { CONTACT_EMAIL } from "./constants";
 
 const Contact = () => {
 	const [state, handleSubmit] = useForm("contactForm");
@@ -83,7 +84,7 @@ const Contact = () => {
 											Or email me directly ✏️ —
 										</div>
 										<a
-											href="mailto:hello@michaelwenlu.com"
+											href={CONTACT_EMAIL}
 											className="inline-flex items-center max-w-full group focus:outline-none w-max-content"
 											target="_blank"
 										>

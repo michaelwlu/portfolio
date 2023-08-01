@@ -7,6 +7,7 @@ import Logo from "./Logo";
 import MobileNav from "./MobileNav";
 import NavLink from "./NavLink";
 import ResumeLink from "./ResumeLink";
+import { GITHUB_URL, LINKEDIN_URL } from "../constants";
 
 const Navbar = () => {
 	const [dropdown, setDropdown] = useState(false);
@@ -35,14 +36,14 @@ const Navbar = () => {
 							<ResumeLink text="resume" />
 							<div className="flex items-center pl-1 space-x-5">
 								<ExternalLink
-									href="https://github.com/michaelwlu"
+									href={GITHUB_URL}
 									ariaLabel="GitHub"
 									className="text-kashmir-500 hover:text-kashmir-300 focus-visible:text-kashmir-300"
 								>
 									<GitHub className="w-5 h-5 lg:w-6 lg:h-6" />
 								</ExternalLink>
 								<ExternalLink
-									href="https://www.linkedin.com/in/michaelwlu/"
+									href={LINKEDIN_URL}
 									ariaLabel="LinkedIn"
 									className="text-kashmir-500 hover:text-kashmir-300 focus-visible:text-kashmir-300"
 								>

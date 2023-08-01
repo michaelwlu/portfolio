@@ -4,6 +4,7 @@ import MelodyChuangCoaching from "./Projects/MelodyChuangCoaching";
 import GitHub from "./assets/GitHub";
 import ExternalLink from "./Navbar/ExternalLink";
 import SectionHeader from "./SectionHeader";
+import { GITHUB_URL } from "./constants";
 
 const Projects = () => {
 	return (
@@ -14,7 +15,7 @@ const Projects = () => {
 				<MelodyChuangCoaching />
 				<div className="flex justify-center text-base">
 					<ExternalLink
-						href="https://github.com/michaelwlu"
+						href={GITHUB_URL}
 						ariaLabel="GitHub"
 						className="text-lg flex items-center leading-none whitespace-no-wrap border-b-1.5 border-bastille-500 hover:border-bastille-300 text-bastille-500 hover:text-bastille-300 focus:text-bastille-300 group"
 					>

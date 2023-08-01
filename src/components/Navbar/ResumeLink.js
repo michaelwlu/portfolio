@@ -1,9 +1,10 @@
 import React from "react";
+import { RESUME_PATH } from "../constants";
 
 const ResumeLink = ({ text }) => {
 	return (
 		<a
-			href="/Michael_W_Lu_Resume.pdf"
+			href={RESUME_PATH}
 			target="_blank"
 			className="block transition duration-150 ease-in-out transform cursor-pointer group focus:outline-none"
 		>

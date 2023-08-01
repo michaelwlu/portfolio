@@ -1,13 +1,14 @@
 import React from "react";
 import ProjectDisplay from "./ProjectDisplay";
+import { MCB_REPO, MCB_SITE } from "../constants";
 
 const MelodyChuangCoaching = () => {
 	const projectDetails = {
 		projectName: "Melody Chuang Coaching",
 		projectDesc:
-			"Life coaching business site with forms attached to email / database storage and social media / content widgets",
-		projectUrl: "https://melodychuangcoaching.com",
-		githubUrl: "https://github.com/michaelwlu/melody-chuang-coaching",
+			"Life coaching business site with contact forms and social media widgets (currently inactive)",
+		projectUrl: MCB_SITE,
+		githubUrl: MCB_REPO,
 		techStack: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
 		demo: {
 			directory: "melodychuangcoaching",
