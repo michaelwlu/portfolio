@@ -19,7 +19,6 @@ export const MCB_SITE = "https://melodychuangcoaching.michaelwenlu.com";
 export const MCB_REPO = "https://github.com/michaelwlu/melody-chuang-coaching";
 
 export const PORTFOLIO_REPO = "https://github.com/michaelwlu/portfolio";
-export const CONTACT_EMAIL = "mailto:hello@michaelwenlu.com";
 
 export const BC_PORTFLIO = "https://brittanychiang.com/";
 export const UNSPLASH_CREDIT =

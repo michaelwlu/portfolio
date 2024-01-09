@@ -1,7 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import SectionHeader from "./SectionHeader";
-import { CONTACT_EMAIL } from "./constants";
 
 const Contact = () => {
 	const [state, handleSubmit] = useForm("contactForm");
@@ -79,20 +78,6 @@ const Contact = () => {
 											can.
 										</p>
 									)}
-									<div className="items-center mt-10">
-										<div className="inline-block mr-1.5 transition duration-75 text-bastille-800">
-											Or email me directly ✏️ —
-										</div>
-										<a
-											href={CONTACT_EMAIL}
-											className="inline-flex items-center max-w-full group focus:outline-none w-max-content"
-											target="_blank"
-										>
-											<div className="inline underline truncate transition duration-75 text-valencia-500 group-hover:text-valencia-300 group-focus:text-valencia-300">
-												hello@michaelwenlu.com
-											</div>
-										</a>
-									</div>
 								</div>
 							</div>
 						</form>
