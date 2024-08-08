@@ -1,9 +1,8 @@
-import React from "react";
 import { Link } from "react-scroll";
 // import Image from './misc/Image.js';
-import Image from "next/image";
-import background from "@/images/background.jpg";
 import backgroundMobile from "@/images/background-mobile.jpg";
+import background from "@/images/background.jpg";
+import Image from "next/image";
 
 const Hero = () => {
 	return (
@@ -38,7 +37,7 @@ const Hero = () => {
 						Michael W. Lu
 					</div>
 					<div className="mt-8 mb-12 space-y-2 text-base md:text-lg lg:text-xl text-carrara">
-						<p>I'm a software engineer based in New York City.</p>
+						<p>I'm a software engineer based in San Francisco.</p>
 						<p>I build web experiences that are engaging and effortless.</p>
 					</div>
 					<div className="flex flex-wrap items-center text-sm lg:text-base">
