@@ -1,5 +1,5 @@
 // make sure resume path includes slash at beginning and pdf extension
-export const RESUME_PATH = "/Michael_W_Lu_Resume_2023_July.pdf";
+export const RESUME_PATH = "/Michael_W_Lu_Resume.pdf";
 
 export const GITHUB_URL = "https://github.com/michaelwlu";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/michaelwlu/";
