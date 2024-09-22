@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "postcss-focus-visible": "^5.0.0",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^6.7.2",
     "tailwindcss": "^1.9.2"
   },
   "resolutions": {
