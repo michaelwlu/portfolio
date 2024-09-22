@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@formspree/react": "^2.2.2",
-    "@tailwindcss/ui": "^0.6.2",
+    "@tailwindcss/ui": "^0.7.2",
     "focus-visible": "^5.2.1",
     "framer-motion": "^2.9.5",
     "next": "11.1.3",
