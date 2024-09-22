@@ -34,8 +34,8 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				sans: ["Inter", ...defaultTheme.fontFamily.sans],
-				logo: ['"Major Mono Display"', ...defaultTheme.fontFamily.sans],
+				sans: ["var(--font-inter)"],
+				logo: ["var(--font-logo)"],
 			},
 			spacing: {
 				18: "4.5rem",

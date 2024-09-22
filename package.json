@@ -1,33 +1,34 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@formspree/react": "^2.5.1",
-    "@tailwindcss/ui": "^0.7.2",
-    "focus-visible": "^5.2.1",
-    "framer-motion": "^2.9.5",
-    "next": "14.2.10",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-player": "^2.16.0",
-    "react-scroll": "^1.9.0",
-    "tailwindcss-filters": "^3.0.0",
-    "vercel": "^37.5.3",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4"
-  },
-  "devDependencies": {
-    "postcss-focus-visible": "^5.0.0",
-    "postcss-preset-env": "^6.7.2",
-    "tailwindcss": "^1.9.2"
-  },
-  "resolutions": {
-    "postcss-focus-within": "^4.0.0"
-  }
+	"name": "portfolio",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@formspree/react": "^2.5.1",
+		"@tailwindcss/ui": "^0.7.2",
+		"focus-visible": "^5.2.1",
+		"framer-motion": "^11.5.6",
+		"next": "^14.2.13",
+		"postcss-focus-within": "^9.0.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-player": "^2.16.0",
+		"react-scroll": "^1.9.0",
+		"tailwindcss-filters": "^3.0.0",
+		"vercel": "^37.5.3",
+		"webpack": "^5.94.0",
+		"webpack-cli": "^5.1.4"
+	},
+	"devDependencies": {
+		"postcss-focus-visible": "^10.0.0",
+		"postcss-preset-env": "^10.0.5",
+		"tailwindcss": "^3.4.12"
+	},
+	"resolutions": {
+		"postcss-focus-within": "^9.0.0"
+	}
 }

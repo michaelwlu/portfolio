@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import Image from "next/image";
+import { useState } from "react";
 import DemoButton from "./DemoButton";
 import ProjectLinks from "./ProjectLinks";
 import TechnologyLink from "./TechnologyLink";
-import Image from "next/legacy/image";
 import Video from "./Video";
 
 const ProjectDisplay = ({ alignment, projectDetails }) => {
@@ -102,14 +102,18 @@ const ProjectDisplay = ({ alignment, projectDetails }) => {
 											src={`/images/${directory}/banner.png`}
 											width={1280}
 											height={720}
-											layout="intrinsic"
 											className="rounded-md"
 											priority="true"
+											style={{
+												maxWidth: "100%",
+												height: "auto",
+											}}
 										/>
 										<Image
 											src={`/images/${directory}/screenshot.png`}
-											layout="fill"
 											className="absolute top-0 left-0 transition-all duration-200 ease-in-out delay-75 rounded-md opacity-100 md:opacity-0 group-hover:opacity-100"
+											fill
+											sizes="100vw"
 										/>
 									</div>
 								) : (

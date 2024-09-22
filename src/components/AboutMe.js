@@ -1,8 +1,7 @@
-import React from "react";
-import SectionHeader from "./SectionHeader";
-import Image from "next/legacy/image";
 import myself from "@/images/myself.jpg";
+import Image from "next/image";
 import { FOTG_URL, IRO_IG_URL, RC_URL, SFI_URL } from "./constants";
+import SectionHeader from "./SectionHeader";
 
 const AboutMe = () => {
 	return (
@@ -68,6 +67,10 @@ const AboutMe = () => {
 							src={myself}
 							className="rounded-full shadow-md"
 							priority="true"
+							style={{
+								maxWidth: "100%",
+								height: "auto",
+							}}
 						/>
 					</div>
 				</div>

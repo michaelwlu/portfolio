@@ -1,8 +1,7 @@
-import { Link } from "react-scroll";
-// import Image from './misc/Image.js';
 import backgroundMobile from "@/images/background-mobile.jpg";
 import background from "@/images/background.jpg";
-import Image from "next/legacy/image";
+import Image from "next/image";
+import { Link } from "react-scroll";
 
 const Hero = () => {
 	return (
@@ -13,20 +12,26 @@ const Hero = () => {
 			>
 				<Image
 					src={background}
-					layout="fill"
-					objectFit="cover"
-					objectPosition="bottom"
 					className="fixed top-0 left-0"
 					priority="true"
+					fill
+					sizes="100vw"
+					style={{
+						objectFit: "cover",
+						objectPosition: "bottom",
+					}}
 				/>
 			</div>
 			<div className="h-screen md:hidden" style={{ clipPath: "inset(0)" }}>
 				<Image
 					src={backgroundMobile}
-					layout="fill"
-					objectFit="cover"
 					className="filter-dark-2/3"
 					priority="true"
+					fill
+					sizes="100vw"
+					style={{
+						objectFit: "cover",
+					}}
 				/>
 			</div>
 
