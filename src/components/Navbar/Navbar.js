@@ -1,13 +1,13 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import GitHub from "../assets/GitHub";
 import LinkedIn from "../assets/LinkedIn";
+import { GITHUB_URL, LINKEDIN_URL } from "../constants";
 import ExternalLink from "./ExternalLink";
 import Logo from "./Logo";
 import MobileNav from "./MobileNav";
 import NavLink from "./NavLink";
 import ResumeLink from "./ResumeLink";
-import { GITHUB_URL, LINKEDIN_URL } from "../constants";
 
 const Navbar = () => {
 	const [dropdown, setDropdown] = useState(false);
@@ -22,10 +22,13 @@ const Navbar = () => {
 					<div // height container
 						className="flex items-center justify-between w-full pt-1 my-auto md:items-end "
 					>
-						<Link href="/">
-							<a className="p-1 transition duration-75 cursor-pointer group focus:outline-none">
-								<Logo />
-							</a>
+						<Link
+							href="/"
+							className="p-1 transition duration-75 cursor-pointer group focus:outline-none"
+						>
+							{/* <a className="p-1 transition duration-75 cursor-pointer group focus:outline-none"> */}
+							<Logo />
+							{/* </a> */}
 						</Link>
 						<nav // desktop nav
 							className="hidden md:flex items-center font-bold space-x-3 lg:space-x-4 text-lg lg:text-1.5xl text-kashmir-500 font-logo"
