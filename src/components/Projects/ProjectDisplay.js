@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DemoButton from "./DemoButton";
 import ProjectLinks from "./ProjectLinks";
 import TechnologyLink from "./TechnologyLink";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Video from "./Video";
 
 const ProjectDisplay = ({ alignment, projectDetails }) => {

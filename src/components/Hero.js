@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 // import Image from './misc/Image.js';
 import backgroundMobile from "@/images/background-mobile.jpg";
 import background from "@/images/background.jpg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Hero = () => {
 	return (

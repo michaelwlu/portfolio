@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import myself from "@/images/myself.jpg";
 import { FOTG_URL, IRO_IG_URL, RC_URL, SFI_URL } from "./constants";
 
