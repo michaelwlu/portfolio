@@ -20,7 +20,7 @@
     "tailwindcss-filters": "^3.0.0",
     "vercel": "^21.2.1",
     "webpack": "^5.94.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
     "postcss-focus-visible": "^5.0.0",
