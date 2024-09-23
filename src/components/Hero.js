@@ -36,7 +36,7 @@ const Hero = () => {
 			</div>
 
 			<div className="absolute items-center justify-start w-full h-full px-6 md:flex top-20 md:top-24">
-				<div className="flex flex-col justify-center max-w-full mx-auto mt-32 w-max-content md:pl-7 md:w-6/12 md:-mt-24 md:ml-6/12">
+				<div className="flex flex-col justify-center max-w-full mx-auto mt-32 w-max-content md:pl-7 md:w-6/12 md:-mt-24 md:ml-[50%]">
 					<div className="text-lg md:text-xl text-carrara">Hi, my name is</div>
 					<div className="mt-4 text-5xl font-semibold leading-tight md:leading-tight md:mt-6 md:font-normal md:text-6xl lg:text-7xl text-goldenhour">
 						Michael W. Lu

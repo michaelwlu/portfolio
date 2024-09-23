@@ -1,4 +1,3 @@
-import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import SectionHeader from "./SectionHeader";
 
@@ -27,7 +26,8 @@ const Contact = () => {
 								<input
 									id="name"
 									name="name"
-									className="w-full lg:text-lg form-input"
+									className="w-full border-gray-300 rounded-md shadow-sm lg:text-lg focus:border-kashmir-300 focus:ring focus:ring-kashmir-200 focus:ring-opacity-50"
+									type="text"
 									required
 								/>
 							</div>
@@ -39,7 +39,7 @@ const Contact = () => {
 									id="email"
 									type="email"
 									name="email"
-									className="w-full lg:text-lg form-input"
+									className="w-full border-gray-300 rounded-md shadow-sm lg:text-lg focus:border-kashmir-300 focus:ring focus:ring-kashmir-200 focus:ring-opacity-50"
 									required
 								/>
 								<ValidationError
@@ -56,7 +56,7 @@ const Contact = () => {
 									<textarea
 										id="message"
 										name="message"
-										className="w-full lg:text-lg form-textarea"
+										className="w-full border-gray-300 rounded-md shadow-sm lg:text-lg focus:border-kashmir-300 focus:ring focus:ring-kashmir-200 focus:ring-opacity-50"
 										rows="5"
 										required
 									/>

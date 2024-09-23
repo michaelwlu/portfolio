@@ -1,48 +1,18 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-	future: {
-		removeDeprecatedGapUtilities: true,
-		purgeLayersByDefault: true,
-		defaultLineHeights: true,
-		standardFontWeights: true,
-	},
-	purge: [
-		"./src/pages/**/*.js",
-		"./src/pages/**/*.ts",
-		"./src/pages/**/*.jsx",
-		"./src/pages/**/*.tsx",
-		"./src/components/**/*.js",
-		"./src/components/**/*.ts",
-		"./src/components/**/*.jsx",
-		"./src/components/**/*.tsx",
+	content: [
+		"./src/pages/**/*.{js,ts,jsx,tsx}",
+		"./src/components/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		filter: {
-			none: "none",
-			grayscale: "grayscale(1)",
-			invert: "invert(1)",
-			sepia: "sepia(1)",
-			"dark-1/5": "brightness(75%)",
-			"dark-1/2": "brightness(50%)",
-			"dark-3/4": "brightness(25%)",
-			"dark-2/3": "brightness(33%)",
-		},
-		backdropFilter: {
-			none: "none",
-			blur: "blur(3px) brightness(75%)",
-		},
 		extend: {
 			fontFamily: {
-				sans: ["var(--font-inter)"],
+				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				logo: ["var(--font-logo)"],
 			},
 			spacing: {
 				18: "4.5rem",
-				// 72: '18rem',
-				// 80: '20rem',
-				// 88: '22rem',
-				// 96: '24rem',
 				104: "26rem",
 				112: "28rem",
 				120: "30rem",
@@ -117,51 +87,5 @@ module.exports = {
 			},
 		},
 	},
-	variants: {
-		backgroundColor: [
-			"responsive",
-			"group-hover",
-			"group-focus",
-			"hover",
-			"focus",
-			"focus-visible",
-			"active",
-		],
-		textColor: [
-			"responsive",
-			"group-hover",
-			"group-focus",
-			"hover",
-			"focus",
-			"focus-visible",
-			"active",
-		],
-		borderRadius: ["first", "last", "responsive"],
-		padding: ["first", "last", "responsive"],
-		translate: [
-			"responsive",
-			"group-hover",
-			"group-focus",
-			"hover",
-			"focus",
-			"active",
-		],
-		rotate: [
-			"responsive",
-			"group-hover",
-			"group-focus",
-			"hover",
-			"focus",
-			"active",
-		],
-		opacity: [
-			"responsive",
-			"group-hover",
-			"group-focus",
-			"hover",
-			"focus",
-			"active",
-		],
-	},
-	plugins: [require("@tailwindcss/ui"), require("tailwindcss-filters")],
+	plugins: [require("@tailwindcss/forms")],
 };

@@ -1,10 +1,23 @@
 import { FormspreeProvider } from "@formspree/react";
 import "focus-visible";
+import { Inter, Major_Mono_Display } from "next/font/google";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
 import "../styles/globals.css";
-import { inter, major_mono_display } from "./fonts";
+
+export const inter = Inter({
+	subsets: ["latin"],
+	display: "swap",
+	variable: "--font-inter",
+});
+
+export const major_mono_display = Major_Mono_Display({
+	subsets: ["latin"],
+	display: "swap",
+	variable: "--font-logo",
+	weight: "400",
+});
 
 const MyApp = ({ Component, pageProps }) => {
 	const router = useRouter();

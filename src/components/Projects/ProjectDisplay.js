@@ -22,7 +22,7 @@ const ProjectDisplay = ({ alignment, projectDetails }) => {
 					alignment === "left"
 						? "lg:flex-row-reverse lg:space-x-reverse"
 						: "lg:flex-row"
-				} flex items-start flex-col lg:space-x-13`}
+				} flex items-start flex-col lg:space-x-12`}
 			>
 				<div // info section
 					className="w-full lg:w-1/3"
