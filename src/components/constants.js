@@ -15,7 +15,7 @@ export const DNR_SITE = "https://definitelynotreddit.com";
 export const DNR_REPO = "https://github.com/michaelwlu/definitely-not-reddit";
 
 // Project: Melody Chuang Business
-export const MCB_SITE = "https://melodychuangcoaching.michaelwenlu.com";
+export const MCB_SITE = "https://melodychuangcoaching.michaelw.lu";
 export const MCB_REPO = "https://github.com/michaelwlu/melody-chuang-coaching";
 
 export const PORTFOLIO_REPO = "https://github.com/michaelwlu/portfolio";
