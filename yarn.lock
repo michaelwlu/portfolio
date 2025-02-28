@@ -380,19 +380,19 @@
   resolved "https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.1.tgz"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
-"@formspree/core@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@formspree/core/-/core-3.0.3.tgz#6fde9011dff49e34dab01911e115693de0301b3e"
-  integrity sha512-6dc5q4noM+f4U1aZ4CInry+vThd8uptg9BRf/JlnL0MHKSZdKxzabsjZquxvNYSlSzTC7boYyTxqKgEi1Cmcog==
+"@formspree/core@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@formspree/core/-/core-3.0.4.tgz#6eed588f4d9e5bfff760aa668489e5c6d5e85d68"
+  integrity sha512-VpdvQfSbcD4smrk1Gb5RJPBYBWmiNVWkiZs6ddu7afnu/OjKGlIPVo42LNNS5ht2joabcTCiyOZgATjqOdqs+g==
   dependencies:
     "@stripe/stripe-js" "^1.35.0"
 
-"@formspree/react@^2.5.3":
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.5.3.tgz#50b0969bf1e929012dc2fb63a244e1b3ab449c05"
-  integrity sha512-9PPwp0Tpt2RWEWvcmIFE4oV3mzUmasSXwAqUpKoll2YlKbMEPbRu1DRHBlvv4fsvC5xrbMvh1g3gmF1K//Y11Q==
+"@formspree/react@^2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.5.4.tgz#84033c5dc2bb6b30b0b9ab75b71eb995c5a9f320"
+  integrity sha512-dwgsU8uot3ZWizunEk2rO0195yk/tmg/pexcTQXSTQfo1IePswYz9Ior5/dtEk4v7yjBHcY1Ho++LdX/cApymw==
   dependencies:
-    "@formspree/core" "^3.0.3"
+    "@formspree/core" "^3.0.4"
     "@stripe/react-stripe-js" "^1.7.1"
     "@stripe/stripe-js" "^1.35.0"
 

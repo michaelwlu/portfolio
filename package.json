@@ -8,7 +8,7 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"@formspree/react": "^2.5.3",
+		"@formspree/react": "^2.5.4",
 		"focus-visible": "^5.2.1",
 		"framer-motion": "^11.18.0",
 		"next": "^15.2.0",
