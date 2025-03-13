@@ -387,10 +387,10 @@
   dependencies:
     "@stripe/stripe-js" "^1.35.0"
 
-"@formspree/react@^2.5.4":
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.5.4.tgz#84033c5dc2bb6b30b0b9ab75b71eb995c5a9f320"
-  integrity sha512-dwgsU8uot3ZWizunEk2rO0195yk/tmg/pexcTQXSTQfo1IePswYz9Ior5/dtEk4v7yjBHcY1Ho++LdX/cApymw==
+"@formspree/react@^2.5.5":
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.5.5.tgz#268a2bdfacbcec4ba89b49cbbfc06edeacf39d37"
+  integrity sha512-VmfFW2f/aSMu023Wt84xGlDquRjbbJbJWtTFie9RI70k/EuVJ41Noj1kGHtYVajry9B1pEMyAh4PovdcdCYAHQ==
   dependencies:
     "@formspree/core" "^3.0.4"
     "@stripe/react-stripe-js" "^1.7.1"
