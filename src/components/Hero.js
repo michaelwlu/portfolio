@@ -47,12 +47,12 @@ const Hero = () => {
 					</div>
 					<div className="flex flex-wrap items-center text-sm lg:text-base">
 						<Link to="about" smooth="easeInOutCubic">
-							<button className="flex items-center justify-center py-2 pl-4 pr-5 mb-3 mr-3 leading-8 text-white whitespace-no-wrap transition duration-75 ease-in-out md:pl-5 md:pr-6 rounded-xl focus:outline-none bg-valencia-500 hover:bg-valencia-400 active:bg-valencia focus-visible:bg-valencia-400">
+							<button className="flex items-center justify-center py-2 pl-4 pr-5 mb-3 mr-3 leading-8 text-white whitespace-no-wrap transition duration-75 ease-in-out md:pl-5 md:pr-6 rounded-xl focus:outline-hidden bg-valencia-500 hover:bg-valencia-400 active:bg-valencia focus-visible:bg-valencia-400">
 								🔍 Learn More
 							</button>
 						</Link>
 						<Link to="contact" smooth="easeInOutCubic">
-							<button className="flex items-center justify-center py-2 pl-4 pr-5 mb-3 leading-7 text-gray-200 whitespace-no-wrap transition duration-75 ease-in-out bg-opacity-25 border-2 border-white border-opacity-50 md:pl-5 hover:bg-opacity-75 md:pr-6 rounded-xl focus:outline-none bg-bastille-800 hover:bg-bastille-700 active:bg-bastille-700 focus-visible:bg-bastille-700">
+							<button className="flex items-center justify-center py-2 pl-4 pr-5 mb-3 leading-7 text-gray-200 whitespace-no-wrap transition duration-75 ease-in-out bg-opacity-25 border-2 border-white border-opacity-50 md:pl-5 hover:bg-opacity-75 md:pr-6 rounded-xl focus:outline-hidden bg-bastille-800 hover:bg-bastille-700 active:bg-bastille-700 focus-visible:bg-bastille-700">
 								👋 Get In Touch
 							</button>
 						</Link>

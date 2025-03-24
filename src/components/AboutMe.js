@@ -23,7 +23,7 @@ const AboutMe = () => {
 						These days, I lead teams of developers at{" "}
 						<a
 							href={SFI_URL}
-							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-none focus-visible:text-kashmir-300"
+							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-hidden focus-visible:text-kashmir-300"
 							target="_blank"
 						>
 							Spatial Front, Inc.
@@ -32,7 +32,7 @@ const AboutMe = () => {
 						ranchers, and landowners to access{" "}
 						<a
 							href={FOTG_URL}
-							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-none focus-visible:text-kashmir-300"
+							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-hidden focus-visible:text-kashmir-300"
 							target="_blank"
 						>
 							technical resources
@@ -43,7 +43,7 @@ const AboutMe = () => {
 						I'm a proud alumnus of NYU Stern as well as the{" "}
 						<a
 							href={RC_URL}
-							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-none focus-visible:text-kashmir-300"
+							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-hidden focus-visible:text-kashmir-300"
 							target="_blank"
 						>
 							Recurse Center
@@ -51,7 +51,7 @@ const AboutMe = () => {
 						. To unwind, I meet dogs and occasionally their owners with{" "}
 						<a
 							href={IRO_IG_URL}
-							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-none focus-visible:text-kashmir-300"
+							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-hidden focus-visible:text-kashmir-300"
 							target="_blank"
 						>
 							my husky Iro

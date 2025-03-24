@@ -17,7 +17,7 @@ const MobileNav = ({ isVisible, handleClick }) => {
 					animate={{ opacity: 1 }}
 					exit={{ oapcity: 0 }}
 					transition={{ duration: 0.15 }}
-					className="fixed top-0 right-0 z-20 flex justify-end w-screen h-screen backdrop-blur"
+					className="fixed top-0 right-0 z-20 flex justify-end w-screen h-screen backdrop-blur-sm"
 				>
 					<motion.nav
 						key="nav"

@@ -89,7 +89,7 @@ const ProjectDisplay = ({ alignment, projectDetails }) => {
 						</div>
 					</div>
 				</div>
-				<div className="flex-shrink-0 w-full max-w-3xl pb-4 mt-6 md:mt-8 lg:w-2/3 group">
+				<div className="shrink-0 w-full max-w-3xl pb-4 mt-6 md:mt-8 lg:w-2/3 group">
 					<div className="flex flex-col w-full">
 						<div
 							className="relative bg-white rounded-md shadow-lg"

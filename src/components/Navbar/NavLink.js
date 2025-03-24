@@ -7,7 +7,7 @@ const NavLink = ({ number, text, handleClick }) => {
 			activeClass="active"
 			to={text}
 			smooth="easeInOutCubic"
-			className="block font-bold transition duration-100 ease-in-out transform cursor-pointer group focus:outline-none"
+			className="block font-bold transition duration-100 ease-in-out transform cursor-pointer group focus:outline-hidden"
 			href={`#${text}`}
 			hashSpy={true}
 			onClick={handleClick}

@@ -5,7 +5,7 @@ const ExternalLink = ({ children, href, ariaLabel, className }) => {
     <a
       href={href}
       target="_blank"
-      className={`${className} transition duration-75 ease-in-out transform cursor-pointer group focus:outline-none`}
+      className={`${className} transition duration-75 ease-in-out transform cursor-pointer group focus:outline-hidden`}
       aria-label={ariaLabel}
       rel="noopener"
     >

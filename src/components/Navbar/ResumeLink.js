@@ -6,7 +6,7 @@ const ResumeLink = ({ text }) => {
 		<a
 			href={RESUME_PATH}
 			target="_blank"
-			className="block transition duration-150 ease-in-out transform cursor-pointer group focus:outline-none"
+			className="block transition duration-150 ease-in-out transform cursor-pointer group focus:outline-hidden"
 		>
 			<div className="inline-block transition duration-150 transform text-sienna-400 group-hover:-rotate-135 group-focus:-rotate-135">
 				<svg

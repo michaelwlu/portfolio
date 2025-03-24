@@ -20,14 +20,14 @@ const DemoButton = ({
         activeDemo === action
           ? 'text-white bg-kashmir-500'
           : 'bg-white text-kashmir-500 focus-visible:text-white focus-visible:bg-kashmir-400'
-      } ${className} relative flex overflow-hidden transition duration-75 ease-in-out cursor-pointer hover:text-white hover:bg-kashmir-400 focus:outline-none whitespace-no-wrap border border-gray-300 justify-center h-7 md:h-8`}
+      } ${className} relative flex overflow-hidden transition duration-75 ease-in-out cursor-pointer hover:text-white hover:bg-kashmir-400 focus:outline-hidden whitespace-no-wrap border border-gray-300 justify-center h-7 md:h-8`}
     >
       <div className="absolute top-0 bottom-0 left-0 right-0">
         <div
           style={{
             width: `${(100 - played * 100) * (activeDemo === action ? 1 : 0)}%`,
           }}
-          className="absolute right-0 h-full bg-gradient-to-bl from-kashmir-500 to-kashmir-600"
+          className="absolute right-0 h-full bg-linear-to-bl from-kashmir-500 to-kashmir-600"
         ></div>
       </div>
       <div className="z-10 flex items-center justify-center pl-2 pr-3 md:pl-5 md:pr-6">

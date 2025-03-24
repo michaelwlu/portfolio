@@ -24,9 +24,9 @@ const Navbar = () => {
 					>
 						<Link
 							href="/"
-							className="p-1 transition duration-75 cursor-pointer group focus:outline-none"
+							className="p-1 transition duration-75 cursor-pointer group focus:outline-hidden"
 						>
-							{/* <a className="p-1 transition duration-75 cursor-pointer group focus:outline-none"> */}
+							{/* <a className="p-1 transition duration-75 cursor-pointer group focus:outline-hidden"> */}
 							<Logo />
 							{/* </a> */}
 						</Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
 						>
 							<button
 								onClick={() => setDropdown(!dropdown)}
-								className={`inline-flex text-kashmir-500 rounded-md focus:outline-none focus:bg-opacity-25 ${
+								className={`inline-flex text-kashmir-500 rounded-md focus:outline-hidden focus:bg-opacity-25 ${
 									dropdown ? "bg-gray-300 bg-opacity-25 " : "shadow-none"
 								}`}
 							>

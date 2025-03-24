@@ -26,7 +26,7 @@ const Contact = () => {
 								<input
 									id="name"
 									name="name"
-									className="w-full border-gray-300 rounded-md shadow-sm lg:text-lg focus:border-kashmir-300 focus:ring focus:ring-kashmir-200 focus:ring-opacity-50"
+									className="w-full border-gray-300 rounded-md shadow-xs lg:text-lg focus:border-kashmir-300 focus:ring-3 focus:ring-kashmir-200 focus:ring-opacity-50"
 									type="text"
 									required
 								/>
@@ -39,7 +39,7 @@ const Contact = () => {
 									id="email"
 									type="email"
 									name="email"
-									className="w-full border-gray-300 rounded-md shadow-sm lg:text-lg focus:border-kashmir-300 focus:ring focus:ring-kashmir-200 focus:ring-opacity-50"
+									className="w-full border-gray-300 rounded-md shadow-xs lg:text-lg focus:border-kashmir-300 focus:ring-3 focus:ring-kashmir-200 focus:ring-opacity-50"
 									required
 								/>
 								<ValidationError
@@ -56,7 +56,7 @@ const Contact = () => {
 									<textarea
 										id="message"
 										name="message"
-										className="w-full border-gray-300 rounded-md shadow-sm lg:text-lg focus:border-kashmir-300 focus:ring focus:ring-kashmir-200 focus:ring-opacity-50"
+										className="w-full border-gray-300 rounded-md shadow-xs lg:text-lg focus:border-kashmir-300 focus:ring-3 focus:ring-kashmir-200 focus:ring-opacity-50"
 										rows="5"
 										required
 									/>
@@ -66,7 +66,7 @@ const Contact = () => {
 										errors={state.errors}
 									/>
 									<button
-										className="flex items-center justify-center px-4 py-2 mt-3 font-medium leading-7 text-white whitespace-no-wrap transition duration-75 ease-in-out lg:mt-4 rounded-xl focus:outline-none bg-valencia-500 hover:bg-valencia-400 active:bg-valencia-400 focus-visible:bg-valencia-400"
+										className="flex items-center justify-center px-4 py-2 mt-3 font-medium leading-7 text-white whitespace-no-wrap transition duration-75 ease-in-out lg:mt-4 rounded-xl focus:outline-hidden bg-valencia-500 hover:bg-valencia-400 active:bg-valencia-400 focus-visible:bg-valencia-400"
 										type="submit"
 										disabled={state.submitting}
 									>

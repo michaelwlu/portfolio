@@ -67,7 +67,7 @@ const TechnologyLink = ({ name, className, alignment = 'left' }) => {
         href={href}
         className={`${
           alignment === 'right' ? 'lg:flex-row-reverse lg:space-x-reverse' : ''
-        } ${className} flex-row flex space-x-1 lg:space-x-2 items-center transition duration-75 ease-in-out text-kashmir-500 focus:outline-none focus:underline group w-max-content lg:no-underline underline hover:underline`}
+        } ${className} flex-row flex space-x-1 lg:space-x-2 items-center transition duration-75 ease-in-out text-kashmir-500 focus:outline-hidden focus:underline group w-max-content lg:no-underline underline hover:underline`}
         target="_blank"
       >
         <div className="transition duration-75 ease-in-out text-kashmir-300 lg:text-kashmir-200 group-hover:text-kashmir-400 group-focus:text-kashmir-400">
