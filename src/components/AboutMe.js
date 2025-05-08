@@ -48,13 +48,13 @@ const AboutMe = () => {
 						>
 							Recurse Center
 						</a>
-						. To unwind, I meet dogs and occasionally their owners with{" "}
+						. To unwind, I meet dogs and occasionally their owners with my husky{" "}
 						<a
 							href={IRO_IG_URL}
 							className="underline transition duration-75 ease-in-out text-kashmir-500 hover:text-kashmir-300 focus:outline-hidden focus-visible:text-kashmir-300"
 							target="_blank"
 						>
-							my husky Iro
+							Iro
 						</a>
 						, expand my culinary comfort zone, and try to pick up heavier
 						weights than I did the week before.
