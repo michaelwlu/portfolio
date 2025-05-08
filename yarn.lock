@@ -3908,7 +3908,7 @@ __metadata:
     sharp: "npm:^0.34.1"
     tailwindcss: "npm:^4.1.5"
     tailwindcss-filters: "npm:^3.0.0"
-    vercel: "npm:^41.7.2"
+    vercel: "npm:^41.7.3"
     webpack: "npm:^5.99.8"
     webpack-cli: "npm:^6.0.1"
   languageName: unknown
@@ -5230,9 +5230,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vercel@npm:^41.7.2":
-  version: 41.7.2
-  resolution: "vercel@npm:41.7.2"
+"vercel@npm:^41.7.3":
+  version: 41.7.3
+  resolution: "vercel@npm:41.7.3"
   dependencies:
     "@vercel/build-utils": "npm:10.5.1"
     "@vercel/fun": "npm:1.1.5"
@@ -5250,7 +5250,7 @@ __metadata:
   bin:
     vc: dist/vc.js
     vercel: dist/vc.js
-  checksum: 10c0/3cd28914dc3d81d41041652808f1af13118c801107ab1027277e50630a3b0711d067a6176de591a596925fe96be7ddc2cde491e5a59b328c73630591d428eb29
+  checksum: 10c0/47c5d6f2c901e189e7c258b009d54c754d53bd3b215893f7ccaeab54bce9847cf603a2bcfe50bc469b2585e28e86a7dce79fe3768a8603877290b668980db06c
   languageName: node
   linkType: hard
 
