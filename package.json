@@ -24,7 +24,7 @@
 		"@tailwindcss/postcss": "^4.1.10",
 		"postcss": "^8.5.5",
 		"postcss-focus-visible": "^10.0.0",
-		"postcss-import": "^16.1.0",
+		"postcss-import": "^16.1.1",
 		"postcss-preset-env": "^10.2.3",
 		"tailwindcss": "^4.1.10",
 		"tailwindcss-filters": "^3.0.0",
