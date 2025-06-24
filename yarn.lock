@@ -2967,9 +2967,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.19.0":
-  version: 12.19.0
-  resolution: "framer-motion@npm:12.19.0"
+"framer-motion@npm:^12.19.1":
+  version: 12.19.1
+  resolution: "framer-motion@npm:12.19.1"
   dependencies:
     motion-dom: "npm:^12.19.0"
     motion-utils: "npm:^12.19.0"
@@ -2985,7 +2985,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/2d7bc1045bb0a1572df38313b60e99d51c15a92f8b78e48fc78722b79f662c19088180453bc981c8292c7fb47f3dd214bf38eb2c27865bbc176d834e8c025a65
+  checksum: 10c0/e3abc8c04c4d69452b4dadf9eeffdc4a252330730c5ff530616d265925b9a34d636992b1ec26191d60ab76a704d437de4c73dcec217f1ae0326adc005edc659f
   languageName: node
   linkType: hard
 
@@ -4046,7 +4046,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.10"
     "@tailwindcss/postcss": "npm:^4.1.10"
     focus-visible: "npm:^5.2.1"
-    framer-motion: "npm:^12.19.0"
+    framer-motion: "npm:^12.19.1"
     next: "npm:^15.3.4"
     postcss: "npm:^8.5.6"
     postcss-focus-visible: "npm:^10.0.0"
