@@ -2967,11 +2967,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.20.5":
-  version: 12.20.5
-  resolution: "framer-motion@npm:12.20.5"
+"framer-motion@npm:^12.23.0":
+  version: 12.23.0
+  resolution: "framer-motion@npm:12.23.0"
   dependencies:
-    motion-dom: "npm:^12.20.5"
+    motion-dom: "npm:^12.22.0"
     motion-utils: "npm:^12.19.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -2985,7 +2985,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/c5490dd82249d1215d2f24beac1d0f8332f488ff28fc7713920435769c79b1b2a05b4ebff2c0694de2b137a5e991b0045423d92a40802fc676c646552b9d6cb5
+  checksum: 10c0/9085c734767620442e03298f738be9c7fff60a8ca59dddf39cc037c45579d11d3ec3502a5c3eba32084c8c258f239048bbf68f5dac62e288d96b069ce54d12e1
   languageName: node
   linkType: hard
 
@@ -3667,12 +3667,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.20.5":
-  version: 12.20.5
-  resolution: "motion-dom@npm:12.20.5"
+"motion-dom@npm:^12.22.0":
+  version: 12.22.0
+  resolution: "motion-dom@npm:12.22.0"
   dependencies:
     motion-utils: "npm:^12.19.0"
-  checksum: 10c0/23ab1d58a4dfd46c1d6ff707cdbf075ebef8212e67e39423422b0cc2d5e1d74611efa1e97716d51eea489c40744c5539a21ce9a51375cfc4c3578d225c2289ea
+  checksum: 10c0/f3ef3a2f9224e6aba81535833c8e396e632c80ca5c919890243113b91c1fd388073c04f3163be64bc72594cebb65a2161bca104c90846504ff771dee979ff9d7
   languageName: node
   linkType: hard
 
@@ -4046,7 +4046,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.10"
     "@tailwindcss/postcss": "npm:^4.1.11"
     focus-visible: "npm:^5.2.1"
-    framer-motion: "npm:^12.20.5"
+    framer-motion: "npm:^12.23.0"
     next: "npm:^15.3.4"
     postcss: "npm:^8.5.6"
     postcss-focus-visible: "npm:^10.0.0"
