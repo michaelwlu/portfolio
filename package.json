@@ -15,7 +15,7 @@
 		"postcss-focus-within": "^9.0.1",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"react-player": "^2.16.0",
+		"react-player": "^3.2.0",
 		"react-scroll": "^1.9.3",
 		"sharp": "^0.34.3"
 	},
