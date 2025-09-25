@@ -10,7 +10,7 @@
 	"dependencies": {
 		"@formspree/react": "^3.0.0",
 		"focus-visible": "^5.2.1",
-		"framer-motion": "^12.23.19",
+		"framer-motion": "^12.23.22",
 		"next": "^15.5.4",
 		"postcss-focus-within": "^9.0.1",
 		"react": "^19.1.1",
