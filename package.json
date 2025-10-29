@@ -30,7 +30,7 @@
 		"postcss-preset-env": "^10.4.0",
 		"tailwindcss": "^4.1.16",
 		"tailwindcss-filters": "^3.0.0",
-		"vercel": "^48.6.0",
+		"vercel": "^48.6.7",
 		"webpack": "^5.102.1",
 		"webpack-cli": "^6.0.1"
 	},
