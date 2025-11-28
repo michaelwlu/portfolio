@@ -2290,6 +2290,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/nestjs@npm:0.2.15":
+  version: 0.2.15
+  resolution: "@vercel/nestjs@npm:0.2.15"
+  dependencies:
+    "@vercel/node": "npm:5.5.13"
+    "@vercel/static-config": "npm:3.1.2"
+  checksum: 10c0/7b7d8360bb7128a1b810d38fb0b639d4708fcf81318f796e13e490b5b09474fa99b08373fb14a73953a2f1a8858eb240fea5ef4fc06803033f56c2a5d98c2fb3
+  languageName: node
+  linkType: hard
+
 "@vercel/next@npm:4.15.6":
   version: 4.15.6
   resolution: "@vercel/next@npm:4.15.6"
@@ -5502,7 +5512,7 @@ __metadata:
     sharp: "npm:^0.34.5"
     tailwindcss: "npm:^4.1.17"
     tailwindcss-filters: "npm:^3.0.0"
-    vercel: "npm:^48.11.1"
+    vercel: "npm:^48.12.0"
     webpack: "npm:^5.103.0"
     webpack-cli: "npm:^6.0.1"
   languageName: unknown
@@ -7119,9 +7129,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vercel@npm:^48.11.1":
-  version: 48.11.1
-  resolution: "vercel@npm:48.11.1"
+"vercel@npm:^48.12.0":
+  version: 48.12.0
+  resolution: "vercel@npm:48.12.0"
   dependencies:
     "@vercel/backends": "npm:0.0.13"
     "@vercel/blob": "npm:1.0.2"
@@ -7135,6 +7145,7 @@ __metadata:
     "@vercel/h3": "npm:0.1.20"
     "@vercel/hono": "npm:0.2.14"
     "@vercel/hydrogen": "npm:1.3.2"
+    "@vercel/nestjs": "npm:0.2.15"
     "@vercel/next": "npm:4.15.6"
     "@vercel/node": "npm:5.5.13"
     "@vercel/python": "npm:6.1.0"
@@ -7148,7 +7159,7 @@ __metadata:
   bin:
     vc: dist/vc.js
     vercel: dist/vc.js
-  checksum: 10c0/a9a0f72b32728aff2f88daf9e2ede5231aac0b2bbc6e3e4f0fc881bb245d3898d1d2323069495115f1d145afc8cfb49490430c24dd8c6996a66cd47faff2bc65
+  checksum: 10c0/bd0be1a31c670a52fa2736163cad119476327ff68408e757c3b52317c5082ec900fe0c69c835a05dd8c2ca2bc760c868a2c2fa375cadc2177e134ddc838ef0d9
   languageName: node
   linkType: hard
 
