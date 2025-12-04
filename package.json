@@ -13,7 +13,7 @@
 		"framer-motion": "^12.23.25",
 		"next": "^16.0.7",
 		"postcss-focus-within": "^9.0.1",
-		"react": "^19.2.0",
+		"react": "^19.2.1",
 		"react-dom": "^19.2.1",
 		"react-player": "^3.4.0",
 		"react-scroll": "^1.9.3",
