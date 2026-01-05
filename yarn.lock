@@ -4064,9 +4064,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.23.26":
-  version: 12.23.26
-  resolution: "framer-motion@npm:12.23.26"
+"framer-motion@npm:^12.23.27":
+  version: 12.23.27
+  resolution: "framer-motion@npm:12.23.27"
   dependencies:
     motion-dom: "npm:^12.23.23"
     motion-utils: "npm:^12.23.6"
@@ -4082,7 +4082,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/7dbbc4a392b969804e04a056e3d89a55bf31572dc7f6cd79050b90616fbb84a1762e4ac4e2537c735d347bbf4ceebea126f5c090234149b12cffa3ea6c518a34
+  checksum: 10c0/1c7fd6c1aa7d0bec9e3dd3387f4e5334abab92fb0811bbfd6cc4dd90a5b88f2eee76189dde94d1772b32b843b630d4f0db181d5bfac2dd51d005ac7cc158dc9c
   languageName: node
   linkType: hard
 
@@ -5588,7 +5588,7 @@ __metadata:
     "@types/react": "npm:^19.2.7"
     "@types/react-dom": "npm:^19.2.3"
     focus-visible: "npm:^5.2.1"
-    framer-motion: "npm:^12.23.26"
+    framer-motion: "npm:^12.23.27"
     next: "npm:^16.1.1"
     postcss: "npm:^8.5.6"
     postcss-focus-visible: "npm:^10.0.0"
