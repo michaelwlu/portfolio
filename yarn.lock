@@ -4064,11 +4064,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.24.10":
-  version: 12.24.10
-  resolution: "framer-motion@npm:12.24.10"
+"framer-motion@npm:^12.24.11":
+  version: 12.24.11
+  resolution: "framer-motion@npm:12.24.11"
   dependencies:
-    motion-dom: "npm:^12.24.10"
+    motion-dom: "npm:^12.24.11"
     motion-utils: "npm:^12.24.10"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -4082,7 +4082,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/9739d33910469d09ddd1eb481a86d3462704550821409704498bc4972e77dcb6f28f7870bae254e11406d869f3bbcb83d922218b0f68b107ad0575b769082dcb
+  checksum: 10c0/fc8e3f87a3cfddefc4abbce5467fae27188ef6d8683cf4bf27e141df3d75b56be21f90c0f56799fdf0e785bde18156d559d80b79229c0f22c20982d8e8b7f8d2
   languageName: node
   linkType: hard
 
@@ -5088,12 +5088,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.24.10":
-  version: 12.24.10
-  resolution: "motion-dom@npm:12.24.10"
+"motion-dom@npm:^12.24.11":
+  version: 12.24.11
+  resolution: "motion-dom@npm:12.24.11"
   dependencies:
     motion-utils: "npm:^12.24.10"
-  checksum: 10c0/5564013ecc634d977fcfde53925e0f127f44de1333895b4fc00c60270240b11cb430751f10ba8d8ecac0666abe9b1b192d29bac6759d408818720785729ae20c
+  checksum: 10c0/7389f646e99cf40baed1b9bfe50feb6de13e1851a1fabe2578e526ab5730dedc6a13077e66fcbad8b8b25e1006a10a9d62bbf39e4cf44ad18bb2a4325fbcd8de
   languageName: node
   linkType: hard
 
@@ -5588,7 +5588,7 @@ __metadata:
     "@types/react": "npm:^19.2.7"
     "@types/react-dom": "npm:^19.2.3"
     focus-visible: "npm:^5.2.1"
-    framer-motion: "npm:^12.24.10"
+    framer-motion: "npm:^12.24.11"
     next: "npm:^16.1.1"
     postcss: "npm:^8.5.6"
     postcss-focus-visible: "npm:^10.0.0"
