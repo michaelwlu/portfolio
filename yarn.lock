@@ -2640,10 +2640,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/ruby@npm:2.2.4":
-  version: 2.2.4
-  resolution: "@vercel/ruby@npm:2.2.4"
-  checksum: 10c0/c353d330d30d73b9c82de9a2054b2dfbf44f8d54a5c37507f1bd03230d4ab35442535744ac5eaefde8af692acfbf9409ead2398287d08c17a24dd769202a1b7e
+"@vercel/ruby@npm:2.2.5":
+  version: 2.2.5
+  resolution: "@vercel/ruby@npm:2.2.5"
+  checksum: 10c0/6513b7def0b9b741da4640e58b97c764941b75eaaa7bb90418efec941b268980a6c944897df5a88cb789ada805c3c49732ca75013a33dc544a497747829b1eec
   languageName: node
   linkType: hard
 
@@ -5798,7 +5798,7 @@ __metadata:
     sharp: "npm:^0.34.5"
     tailwindcss: "npm:^4.1.18"
     tailwindcss-filters: "npm:^3.0.0"
-    vercel: "npm:^50.6.1"
+    vercel: "npm:^50.8.1"
     webpack: "npm:^5.104.1"
     webpack-cli: "npm:^6.0.1"
   languageName: unknown
@@ -7421,9 +7421,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vercel@npm:^50.6.1":
-  version: 50.6.1
-  resolution: "vercel@npm:50.6.1"
+"vercel@npm:^50.8.1":
+  version: 50.8.1
+  resolution: "vercel@npm:50.8.1"
   dependencies:
     "@vercel/backends": "npm:0.0.23"
     "@vercel/blob": "npm:1.0.2"
@@ -7444,7 +7444,7 @@ __metadata:
     "@vercel/python": "npm:6.3.2"
     "@vercel/redwood": "npm:2.4.9"
     "@vercel/remix-builder": "npm:5.5.9"
-    "@vercel/ruby": "npm:2.2.4"
+    "@vercel/ruby": "npm:2.2.5"
     "@vercel/rust": "npm:1.0.5"
     "@vercel/static-build": "npm:2.8.28"
     chokidar: "npm:4.0.0"
@@ -7454,7 +7454,7 @@ __metadata:
   bin:
     vc: dist/vc.js
     vercel: dist/vc.js
-  checksum: 10c0/48070e7856b5961f9996ef7fcb628b3873e2207eee9f426747056a45711a37742b33e4fe30520b9caad1f430c0bbdd6759a3eaad26d02996fb0d54703ccc10d4
+  checksum: 10c0/2adc23a13c9261e31f75e22647585188a02ea7a29b63ed9adb032dbec5ee4f985cae34099baca6e7204be999ca85e09397c3d572993f307520984be03721157a
   languageName: node
   linkType: hard
 
