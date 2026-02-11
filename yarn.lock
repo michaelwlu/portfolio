@@ -5974,7 +5974,7 @@ __metadata:
     framer-motion: "npm:^12.34.0"
     next: "npm:^16.1.6"
     postcss: "npm:^8.5.6"
-    postcss-focus-visible: "npm:^10.0.0"
+    postcss-focus-visible: "npm:^11.0.0"
     postcss-focus-within: "npm:^9.0.1"
     postcss-import: "npm:^16.1.1"
     postcss-preset-env: "npm:^10.6.1"
@@ -6119,7 +6119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-focus-visible@npm:^10.0.0, postcss-focus-visible@npm:^10.0.1":
+"postcss-focus-visible@npm:^10.0.1":
   version: 10.0.1
   resolution: "postcss-focus-visible@npm:10.0.1"
   dependencies:
@@ -6127,6 +6127,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 10c0/c5ecc8536a708a49a99d0abd68a88a160664e6c832c808db8edd9f0221e7017a258daa87e49daf2cb098cb037005d46cf492403c8c9c92ad8835d30adaccf665
+  languageName: node
+  linkType: hard
+
+"postcss-focus-visible@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "postcss-focus-visible@npm:11.0.0"
+  dependencies:
+    postcss-selector-parser: "npm:^7.1.1"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10c0/001cdfb200fe83b25a0fdbb7315b70fcf91c71d0134e16d48334fc7eab3d41c7cd3b8fe7bb8201a0ef9f242afb10f71aed238715a1d6923f68a02e6dc4219916
   languageName: node
   linkType: hard
 
@@ -6382,6 +6393,16 @@ __metadata:
     cssesc: "npm:^3.0.0"
     util-deprecate: "npm:^1.0.2"
   checksum: 10c0/0fef257cfd1c0fe93c18a3f8a6e739b4438b527054fd77e9a62730a89b2d0ded1b59314a7e4aaa55bc256204f40830fecd2eb50f20f8cb7ab3a10b52aa06c8aa
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "postcss-selector-parser@npm:7.1.1"
+  dependencies:
+    cssesc: "npm:^3.0.0"
+    util-deprecate: "npm:^1.0.2"
+  checksum: 10c0/02d3b1589ddcddceed4b583b098b95a7266dacd5135f041e5d913ebb48e874fd333a36e564cc9a2ec426a464cb18db11cb192ac76247aced5eba8c951bf59507
   languageName: node
   linkType: hard
 
