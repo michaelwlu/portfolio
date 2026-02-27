@@ -5984,7 +5984,7 @@ __metadata:
     next: "npm:^16.1.6"
     postcss: "npm:^8.5.6"
     postcss-focus-visible: "npm:^10.0.0"
-    postcss-focus-within: "npm:^9.0.1"
+    postcss-focus-within: "npm:^10.0.0"
     postcss-import: "npm:^16.1.1"
     postcss-preset-env: "npm:^10.6.1"
     react: "npm:^19.2.4"
