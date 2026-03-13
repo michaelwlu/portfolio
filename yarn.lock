@@ -5994,7 +5994,7 @@ __metadata:
     next: "npm:^16.1.6"
     postcss: "npm:^8.5.8"
     postcss-focus-visible: "npm:^11.0.0"
-    postcss-focus-within: "npm:^9.0.1"
+    postcss-focus-within: "npm:^10.0.0"
     postcss-import: "npm:^16.1.1"
     postcss-preset-env: "npm:^10.6.1"
     react: "npm:^19.2.4"
@@ -6160,14 +6160,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-focus-within@npm:^9.0.0":
-  version: 9.0.1
-  resolution: "postcss-focus-within@npm:9.0.1"
+"postcss-focus-within@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "postcss-focus-within@npm:10.0.0"
   dependencies:
-    postcss-selector-parser: "npm:^7.0.0"
+    postcss-selector-parser: "npm:^7.1.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10c0/d6ab49d2a7f33485a9e137dc77ec92c5619a3ec92e1e672734fc604853ff1f3c0c189085c12461614be4fcb03ea0347d91791a45986a18d50b5228d161eda57a
+  checksum: 10c0/297ba52c07ba9284e7bf862e23ce90312bc2068d005a3c95833d832462691fac276850dd5508228fc808ec5f2963cb61a8b510645e08b78a74a9aaff9a79b02b
   languageName: node
   linkType: hard
 
