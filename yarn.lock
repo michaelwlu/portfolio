@@ -6016,7 +6016,7 @@ __metadata:
     framer-motion: "npm:^12.36.0"
     next: "npm:^16.1.6"
     postcss: "npm:^8.5.8"
-    postcss-focus-visible: "npm:^10.0.0"
+    postcss-focus-visible: "npm:^11.0.0"
     postcss-focus-within: "npm:^9.0.1"
     postcss-import: "npm:^16.1.1"
     postcss-preset-env: "npm:^11.2.0"
@@ -6158,17 +6158,6 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 10c0/0a9a1c567c79ddbe7bbeafe9770f2393d4d0eb344a79a2823dc5944690d74c311841ff6fd533b823d282029eff07418eeb671fabc85db6414ace48cce37223e8
-  languageName: node
-  linkType: hard
-
-"postcss-focus-visible@npm:^10.0.0":
-  version: 10.0.1
-  resolution: "postcss-focus-visible@npm:10.0.1"
-  dependencies:
-    postcss-selector-parser: "npm:^7.0.0"
-  peerDependencies:
-    postcss: ^8.4
-  checksum: 10c0/c5ecc8536a708a49a99d0abd68a88a160664e6c832c808db8edd9f0221e7017a258daa87e49daf2cb098cb037005d46cf492403c8c9c92ad8835d30adaccf665
   languageName: node
   linkType: hard
 
