@@ -32,7 +32,7 @@
 		"tailwindcss-filters": "^3.0.0",
 		"vercel": "^50.37.1",
 		"webpack": "^5.105.4",
-		"webpack-cli": "^6.0.1"
+		"webpack-cli": "^7.0.2"
 	},
 	"resolutions": {
 		"postcss-focus-within": "^10.0.0"
