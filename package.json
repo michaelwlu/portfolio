@@ -17,7 +17,7 @@
 		"react-dom": "^19.2.7",
 		"react-player": "^3.4.0",
 		"react-scroll": "^1.9.3",
-		"sharp": "^0.35.0"
+		"sharp": "^0.35.1"
 	},
 	"devDependencies": {
 		"@tailwindcss/forms": "^0.5.11",
