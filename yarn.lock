@@ -2487,10 +2487,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/container@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@vercel/container@npm:0.0.3"
-  checksum: 10c0/f657cba3db24b47919d93dfe3647a3adcaf7a0d8639281d1ab5d1f7d5982d941ceeac49397e11de5375e0c9317bf6501df87c88763cc8be4b2b8024bc2b73fff
+"@vercel/container@npm:0.0.4":
+  version: 0.0.4
+  resolution: "@vercel/container@npm:0.0.4"
+  checksum: 10c0/037949ff5840a702d4ec7eeea0cda850c6dfc3fe6e28cfaa97a8ccbb176d3231462f58ab3d5a5e61ab0f1393830dcb9d56440adae97c1d7af72664cc4059d23d
   languageName: node
   linkType: hard
 
@@ -2654,12 +2654,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/next@npm:4.20.1":
-  version: 4.20.1
-  resolution: "@vercel/next@npm:4.20.1"
+"@vercel/next@npm:4.20.2":
+  version: 4.20.2
+  resolution: "@vercel/next@npm:4.20.2"
   dependencies:
     "@vercel/nft": "npm:1.10.0"
-  checksum: 10c0/714b16fe64f54cf9fbae3a98a04ff34224a9eea97c78d3b416094e5b10c350577025a15ceb574de4b6bdb147bea31dc43497de2f06c2dc2ba80e8f5865bbd99f
+  checksum: 10c0/70e0bf36f491c05de6ef5616233059ccbd8ceb58852a620b974f4e79bf089b5e4be6547c36f1c1087a34b9fc1db623c26239454519347c1787aa114590710be1
   languageName: node
   linkType: hard
 
@@ -5960,7 +5960,7 @@ __metadata:
     sharp: "npm:^0.35.2"
     tailwindcss: "npm:^4.3.1"
     tailwindcss-filters: "npm:^3.0.0"
-    vercel: "npm:^54.18.2"
+    vercel: "npm:^54.18.5"
     webpack: "npm:^5.108.1"
     webpack-cli: "npm:^7.1.0"
   languageName: unknown
@@ -7498,16 +7498,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vercel@npm:^54.18.2":
-  version: 54.18.2
-  resolution: "vercel@npm:54.18.2"
+"vercel@npm:^54.18.5":
+  version: 54.18.5
+  resolution: "vercel@npm:54.18.5"
   dependencies:
     "@vercel/backends": "npm:0.8.20"
     "@vercel/blob": "npm:2.4.0"
     "@vercel/build-utils": "npm:13.32.2"
     "@vercel/cli-auth": "npm:0.3.0"
     "@vercel/cli-config": "npm:0.2.0"
-    "@vercel/container": "npm:0.0.3"
+    "@vercel/container": "npm:0.0.4"
     "@vercel/detect-agent": "npm:1.2.3"
     "@vercel/elysia": "npm:0.1.98"
     "@vercel/express": "npm:0.1.111"
@@ -7519,7 +7519,7 @@ __metadata:
     "@vercel/hydrogen": "npm:1.4.0"
     "@vercel/koa": "npm:0.1.81"
     "@vercel/nestjs": "npm:0.2.102"
-    "@vercel/next": "npm:4.20.1"
+    "@vercel/next": "npm:4.20.2"
     "@vercel/node": "npm:5.8.22"
     "@vercel/prepare-flags-definitions": "npm:0.3.0"
     "@vercel/python": "npm:6.47.3"
@@ -7540,7 +7540,7 @@ __metadata:
   bin:
     vc: dist/vc.js
     vercel: dist/vc.js
-  checksum: 10c0/9f6b442383a2bf77c229aa53d605e32daf89710785ed6d10e94819bec4b61826073c6e4fceb90bc2c84d377dd2453d050710b016f66b300609e8575ca0b59588
+  checksum: 10c0/895ad362aba9461502740569dcc33acd31301342b282150f6643564d8675eb8fdf98d2c8b6c3e07659d669075ebcc09f7803cd5bada5379f0e1f3218b355d94a
   languageName: node
   linkType: hard
 
