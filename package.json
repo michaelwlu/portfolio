@@ -31,7 +31,7 @@
 		"tailwindcss": "^4.3.2",
 		"tailwindcss-filters": "^3.0.0",
 		"vercel": "^54.20.0",
-		"webpack": "^5.108.3",
+		"webpack": "^5.108.4",
 		"webpack-cli": "^7.1.0"
 	},
 	"resolutions": {
