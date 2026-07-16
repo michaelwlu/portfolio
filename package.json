@@ -28,7 +28,7 @@
 		"postcss-focus-visible": "^11.0.0",
 		"postcss-import": "^16.1.1",
 		"postcss-preset-env": "^11.3.2",
-		"tailwindcss": "^4.3.2",
+		"tailwindcss": "^4.3.3",
 		"tailwindcss-filters": "^3.0.0",
 		"vercel": "^54.21.1",
 		"webpack": "^5.108.4",
